@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#343434"
+    android:minWidth="320dp"
+    android:orientation="vertical"
+
+    >
+
+    <TextView
+        android:id="@+id/tvemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="email" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter your email" />
+
+    <TextView
+        android:id="@+id/tvpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="password" />
+
+    <EditText
+        android:id="@+id/etpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter new password" />
+
+    <TextView
+        android:id="@+id/tvpasscon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="password" />
+
+    <EditText
+        android:id="@+id/etpasscon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter new password" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Done"
+        android:id="@+id/button" />
+</LinearLayout>
